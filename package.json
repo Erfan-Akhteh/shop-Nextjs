@@ -1,0 +1,30 @@
+{
+  "name": "shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mantine/hooks": "^5.10.2",
+    "@next/font": "13.1.4",
+    "@rehooks/local-storage": "^2.4.4",
+    "aos": "^2.3.4",
+    "axios": "^1.2.3",
+    "next": "13.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.57.1",
+    "sweetalert2": "^11.7.1",
+    "sweetalert2-react-content": "^5.0.7",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postscss": "^2.0.0",
+    "tailwindcss": "^3.2.4"
+  }
+}

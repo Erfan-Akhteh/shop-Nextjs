@@ -1,0 +1,38 @@
+.continer{
+   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+     
+        padding: 0 10px;    
+}
+
+.img{
+    height:100%;
+    width: 100%;
+}
+.card{
+    
+box-shadow: 5px 4px 10px 1px #9c9c9c;
+}
+.but{
+
+    box-shadow: 5px 4px 10px 1px #0f682d;
+}
+
+.butt{
+    box-shadow: 5px 4px 10px 1px #225279;
+}
+
+@media screen and (max-width: 1200px) {
+    .continer{
+   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+     
+        padding: 0 10px;    
+}
+}
